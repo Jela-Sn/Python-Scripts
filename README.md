@@ -10,38 +10,61 @@ just like it was helpful to the person with the original idea.
 Overview
 
 The Hermit Engagement Toolkit is a Python script designed to assist in penetration testing engagements by:
+
 	•	Logging commands and their outputs.
+ 
 	•	Taking timestamped notes.
+ 
 	•	Parsing Nmap scan results for actionable insights.
+ 
 	•	Creating an organized directory structure for engagement files.
 
 This script simplifies logging and reporting tasks while providing a clean and structured approach to managing pentest data.
 
-Features
+Features:
+
 	1.	Log Commands:
 	•	Run and log commands with timestamps and outputs.
-	•	Save logs for future reference.
+ 
+ 	•	Save logs for future reference.
+ 
 	2.	Take Notes:
+ 
 	•	Add timestamped notes to a centralized log file.
+ 
 	3.	Parse Nmap Results:
+ 
 	•	Extract open ports and associated IPs from Nmap output.
+ 
 	•	Filter results by port or service.
+ 
 	•	Save a summary in CSV format for easy reporting.
+ 
 	4.	Directory Management:
+ 
 	•	Automatically creates and maintains an organized directory structure:
 
 ~/engagement/
+
 ├── helpers/
+
 ├── logs/
+
 └── nmap_results/
 
+
 Requirements
+
 	•	Operating System: Linux (tested on Kali Linux).
+ 
 	•	Python Version: Python 3.6 or later.
 
 Installation
+
 	1.	Clone or Download the Script:
+ 
 	•	Save the script as hermit_engagement.py in a directory of your choice.
+ 
 	2.	Optional: Create a scripts directory:
 
 mkdir -p ~/scripts
